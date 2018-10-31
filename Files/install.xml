@@ -1,0 +1,15 @@
+<Configuration>
+    <Add OfficeClientEdition="64" Channel="Broad" ForceUpgrade="TRUE">
+        <Product ID="O365ProPlusRetail">
+            <Language ID="en-us"/>
+        </Product>
+    </Add>
+    <Updates Enabled="TRUE"/>
+    <Display Level="None" AcceptEULA="TRUE"/>
+    <Logging Level="Standard" Path="%temp%"/>
+    <Property Name="FORCEAPPSHUTDOWN" Value="TRUE"/>
+    <Property Name="SharedComputerLicensing" Value="0"/>
+    <Property Name="PinIconsToTaskbar" Value="TRUE"/>
+	<Property Name="AUTOACTIVATE" Value="1"/>
+    <RemoveMSI All="True" />
+</Configuration>
